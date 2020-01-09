@@ -33,7 +33,7 @@ public class CompanyService {
 
     }
 
-//    public CompanyResponse updateCompany(){
+//    public CompanyResponse updateCompany(CompanyInput input, long id){
 //
 //    }
 //

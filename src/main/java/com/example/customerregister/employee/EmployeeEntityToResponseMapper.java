@@ -1,7 +1,10 @@
 package com.example.customerregister.employee;
 
+import org.springframework.stereotype.Component;
+
 import java.util.function.Function;
 
+@Component
 public class EmployeeEntityToResponseMapper implements Function<Employee, EmployeeResponse> {
     @Override
     public EmployeeResponse apply(Employee employee) {
